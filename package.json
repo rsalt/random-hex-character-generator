@@ -1,0 +1,27 @@
+{
+  "name": "random-hex-character-generator",
+  "version": "0.1.0",
+  "description": "a module that returns alphanumeric hex strings",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rsalt/random-hex-character-generator.git"
+  },
+  "keywords": [
+    "string",
+    "random",
+    "crypto",
+    "hax",
+    "key",
+    "characters"
+  ],
+  "author": "Rahul Shivprasad Pal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rsalt/random-hex-character-generator/issues"
+  },
+  "homepage": "https://github.com/rsalt/random-hex-character-generator#readme"
+}
