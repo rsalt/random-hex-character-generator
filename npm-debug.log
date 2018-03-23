@@ -1,0 +1,110 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.0
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: 'D:\\NPM_publish_Packges\\random-hex-character-generator',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory C:\Users\rahul570126\AppData\Roaming\npm-cache\random-hex-character-generator\0.1.0\package.tgz not in flight; packing
+9 verbose correctMkdir C:\Users\rahul570126\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+10 info lifecycle random-hex-character-generator@0.1.0~prepublish: random-hex-character-generator@0.1.0
+11 silly lifecycle random-hex-character-generator@0.1.0~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ 'C:\\Users\\rahul570126\\AppData\\Roaming\\npm-cache\\random-hex-character-generator\\0.1.0\\package.tgz',
+12 verbose tar pack   'D:\\NPM_publish_Packges\\random-hex-character-generator' ]
+13 verbose tarball C:\Users\rahul570126\AppData\Roaming\npm-cache\random-hex-character-generator\0.1.0\package.tgz
+14 verbose folder D:\NPM_publish_Packges\random-hex-character-generator
+15 verbose addLocalTarball adding from inside cache C:\Users\rahul570126\AppData\Roaming\npm-cache\random-hex-character-generator\0.1.0\package.tgz
+16 verbose correctMkdir C:\Users\rahul570126\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+17 silly cache afterAdd random-hex-character-generator@0.1.0
+18 verbose afterAdd C:\Users\rahul570126\AppData\Roaming\npm-cache\random-hex-character-generator\0.1.0\package\package.json not in flight; writing
+19 verbose correctMkdir C:\Users\rahul570126\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+20 verbose afterAdd C:\Users\rahul570126\AppData\Roaming\npm-cache\random-hex-character-generator\0.1.0\package\package.json written
+21 silly publish { name: 'random-hex-character-generator',
+21 silly publish   version: '0.1.0',
+21 silly publish   description: 'a module that returns alphanumeric hex strings',
+21 silly publish   main: 'server.js',
+21 silly publish   scripts: { test: 'mocha **/*.test.js', start: 'node server.js' },
+21 silly publish   repository:
+21 silly publish    { type: 'git',
+21 silly publish      url: 'git+https://github.com/rsalt/random-hex-character-generator.git' },
+21 silly publish   keywords: [ 'string', 'random', 'crypto', 'hax', 'key', 'characters' ],
+21 silly publish   author: { name: 'Rahul Shivprasad Pal' },
+21 silly publish   license: 'MIT',
+21 silly publish   bugs: { url: 'https://github.com/rsalt/random-hex-character-generator/issues' },
+21 silly publish   homepage: 'https://github.com/rsalt/random-hex-character-generator#readme',
+21 silly publish   devDependencies: { expect: '^22.4.3', mocha: '^5.0.5' },
+21 silly publish   readme: '# random-hex-character-generator\r\nA modules that returns alphanumerics and hex strings.\r\n\r\n## HOW TO INSATALL\r\n```sh\r\n$ npm install random-hex-character-generator\r\n```\r\n## HOW TO USE\r\n```javascript\r\nvar random = require(\'random-hex-character-generator\');\r\n```\r\n\r\n## METHOD\r\n\r\nRandomHax\r\n - This method takes in an integer value which specifies the lenght of returned string.\r\n```javascript\r\n\r\nconsole.log(RandomHax(10));\r\n//Returns ab23lkd4we\r\n\r\n```\r\n\r\nLicense\r\n----\r\n\r\nMIT\r\n',
+21 silly publish   readmeFilename: 'README.md',
+21 silly publish   gitHead: '7489b45b222b8ec0e078171d3a9737d0b80467d2',
+21 silly publish   _id: 'random-hex-character-generator@0.1.0',
+21 silly publish   _shasum: '30427d19aebd518a8d6007178fac46039d42b83e',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name random-hex-character-generator
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'random-hex-character-generator',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   escapedName: 'random-hex-character-generator',
+26 silly mapToRegistry   name: 'random-hex-character-generator',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri https://registry.npmjs.org/random-hex-character-generator
+28 verbose publish registryBase https://registry.npmjs.org/
+29 silly publish uploading C:\Users\rahul570126\AppData\Roaming\npm-cache\random-hex-character-generator\0.1.0\package.tgz
+30 verbose request uri https://registry.npmjs.org/random-hex-character-generator
+31 verbose request sending authorization for write operation
+32 info attempt registry request try #1 at 3:29:14 PM
+33 verbose request using bearer token for auth
+34 verbose request id b64deda015561caf
+35 http request PUT https://registry.npmjs.org/random-hex-character-generator
+36 http 403 https://registry.npmjs.org/random-hex-character-generator
+37 verbose headers { 'content-type': 'application/json',
+37 verbose headers   'cache-control': 'max-age=300',
+37 verbose headers   'content-length': '93',
+37 verbose headers   'accept-ranges': 'bytes',
+37 verbose headers   date: 'Fri, 23 Mar 2018 09:59:10 GMT',
+37 verbose headers   via: '1.1 varnish',
+37 verbose headers   connection: 'keep-alive',
+37 verbose headers   'x-served-by': 'cache-bos8220-BOS',
+37 verbose headers   'x-cache': 'MISS',
+37 verbose headers   'x-cache-hits': '0',
+37 verbose headers   'x-timer': 'S1521799150.924354,VS0,VE441',
+37 verbose headers   vary: 'Accept-Encoding, Accept' }
+38 verbose request invalidating C:\Users\rahul570126\AppData\Roaming\npm-cache\registry.npmjs.org\random-hex-character-generator on PUT
+39 error publish Failed PUT 403
+40 verbose stack Error: You cannot publish over the previously published versions: 0.1.0. : random-hex-character-generator
+40 verbose stack     at makeError (C:\Users\rahul570126\AppData\Roaming\nvm\v6.11.0\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+40 verbose stack     at CachingRegistryClient.<anonymous> (C:\Users\rahul570126\AppData\Roaming\nvm\v6.11.0\node_modules\npm\node_modules\npm-registry-client\lib\request.js:290:14)
+40 verbose stack     at Request._callback (C:\Users\rahul570126\AppData\Roaming\nvm\v6.11.0\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+40 verbose stack     at Request.self.callback (C:\Users\rahul570126\AppData\Roaming\nvm\v6.11.0\node_modules\npm\node_modules\request\request.js:187:22)
+40 verbose stack     at emitTwo (events.js:106:13)
+40 verbose stack     at Request.emit (events.js:191:7)
+40 verbose stack     at Request.<anonymous> (C:\Users\rahul570126\AppData\Roaming\nvm\v6.11.0\node_modules\npm\node_modules\request\request.js:1048:10)
+40 verbose stack     at emitOne (events.js:96:13)
+40 verbose stack     at Request.emit (events.js:188:7)
+40 verbose stack     at IncomingMessage.<anonymous> (C:\Users\rahul570126\AppData\Roaming\nvm\v6.11.0\node_modules\npm\node_modules\request\request.js:969:12)
+41 verbose statusCode 403
+42 verbose pkgid random-hex-character-generator
+43 verbose cwd D:\NPM_publish_Packges\random-hex-character-generator
+44 error Windows_NT 10.0.14393
+45 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+46 error node v6.11.0
+47 error npm  v3.10.10
+48 error code E403
+49 error You cannot publish over the previously published versions: 0.1.0. : random-hex-character-generator
+50 error If you need help, you may report this error at:
+50 error     <https://github.com/npm/npm/issues>
+51 verbose exit [ 1, true ]
